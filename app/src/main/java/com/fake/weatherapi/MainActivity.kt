@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
 
-    private val apiKey = "0fb69abf5e260cdbba820a90cb8af7e6"
+    private val apiKey = "YOUR_API_KEY"
     private lateinit var weatherService: WeatherService
     private lateinit var searchQuery: EditText
     private lateinit var searchBtn: Button
